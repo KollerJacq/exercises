@@ -1,8 +1,4 @@
 body {
-  text-align: center;
-  margin-top: 50px;
-}
-body {
   background-color: #2a3950;
 }
 .container {
@@ -23,9 +19,4 @@ h1 {
 .link:hover {
   color: #ff9677;
   text-decoration: underline;
-}
-.btn {
-  background-color: #f54768;
-  color: #fff;
-  font-weight: 700;
 }

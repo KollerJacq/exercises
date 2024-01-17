@@ -14,24 +14,27 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 class="mb-5">Let's calculate the area of a rectangle!</h1>
-    <h3 class="mb-4">Please type in the measurements of each side:</h3>
-    <form class="mb-5">
-      First:
-      <input type="number" id="first" />
-      Second:
-      <input type="number" id="second" />
-      Third:
-      <input type="number" id="third" />
-      <input
-        type="button"
-        id="btn"
-        value="Submit"
-        class="btn btn-primary"
-        onclick="calcArea()"
-      />
-    </form>
-    <h2 id="calculation">The area is: ...</h2>
+    <div class="container">
+      <a href="/index.html" class="link">Home</a>
+      <h1 class="mb-5">Let's calculate the area of a rectangle!</h1>
+      <h3 class="mb-4">Please type in the measurements of each side:</h3>
+      <form class="mb-5">
+        First:
+        <input type="number" id="first" />
+        Second:
+        <input type="number" id="second" />
+        Third:
+        <input type="number" id="third" />
+        <input
+          type="button"
+          id="btn"
+          value="Submit"
+          class="btn"
+          onclick="calcArea()"
+        />
+      </form>
+      <h2 id="calculation">The area is: ...</h2>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
