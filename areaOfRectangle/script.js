@@ -1,11 +1,14 @@
-const calc = document.getElementById("calculation");
+function calcArea() {
+  let first = parseInt(document.getElementById("first").value);
+  let second = parseInt(document.getElementById("second").value);
+  let third = parseInt(document.getElementById("third").value);
 
-function calcArea(a, b, c) {
-  let s = (a + b + c) / 2;
+  let s = (first + second + third) / 2;
   let area =
-    Math.round(Math.sqrt(s * (s - a) * (s - b) * (s - c)) * 1000) / 1000;
-  //console.log(area);
-  return area;
-}
+    Math.round(Math.sqrt(s * (s - first) * (s - second) * (s - third)) * 1000) /
+    1000;
+  console.log(first, second, third);
+  console.log(area);
 
-calc.innerHTML = `The area is: ${calcArea(5, 6, 7)}`;
+  document.getElementById("calculation").innerHTML = `The area is: ${area}`;
+}
