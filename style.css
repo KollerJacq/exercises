@@ -1,0 +1,26 @@
+body {
+  background-color: #2a3950;
+}
+.container {
+  color: #fff;
+  text-align: center;
+  margin-top: 150px;
+}
+h1 {
+  margin-bottom: 50px;
+  font-weight: 800;
+}
+.link {
+  text-decoration: none;
+  color: #f54768;
+  font-size: 24px;
+  font-weight: 700;
+}
+.link:hover {
+  color: #ff9677;
+  text-decoration: underline;
+}
+img {
+  margin-top: 20px;
+  width: 200px;
+}
